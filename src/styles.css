@@ -1,0 +1,128 @@
+* {
+  font-family: "Secular One", sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #fffbdbaf;
+}
+
+.bigContainer {
+  display: block;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 10px;
+  box-shadow: 0px 8px 10px grey;
+  padding: 20px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.searchEngine {
+  margin-top: 20px;
+}
+
+.card {
+  box-shadow: 0px 8px 10px grey;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: "Shippori Antique", sans-serif;
+}
+
+h1 {
+  color: #ffadd9;
+}
+
+h2 {
+  color: #70acb3;
+}
+
+h3 {
+  color: #b36890;
+}
+
+input {
+  border: none;
+  box-shadow: 0px 2px 4px grey;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: white;
+  color: #ffadd9;
+  padding: 5px 15px;
+  margin-left: 5px;
+  box-shadow: 0px 2px 4px grey;
+}
+
+button:hover {
+  background-color: #ffadd9;
+  color: white;
+}
+
+.actualLocation {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  color: #70acb3;
+}
+
+.actualLocation:hover {
+  background-color: #70acb3;
+  color: white;
+}
+
+h4 {
+  font-size: 40px;
+  color: #ffadd9;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h5 {
+  color: #b36890;
+}
+
+h6 {
+  text-align: center;
+  color: rgb(44, 92, 97);
+  font-size: 18px;
+}
+
+.vector {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.sections {
+  padding: 30px;
+  border-bottom: solid gray;
+  border-width: 1px;
+}
+
+.signature {
+  color: #b36890;
+}
+
+.redesSociales {
+  display: inline-block;
+  width: 60px;
+}
