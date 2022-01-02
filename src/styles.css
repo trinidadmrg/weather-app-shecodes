@@ -119,7 +119,7 @@ button:hover {
 }
 
 h4 {
-  font-size: 40px;
+  font-size: 30px;
   color: #ffadd9;
   display: block;
   margin: 0 auto;
@@ -166,4 +166,8 @@ h6 {
 
 .weatherTemp .active {
   color: #70acb3;
+}
+
+.forecastIcon {
+  width: 100%;
 }

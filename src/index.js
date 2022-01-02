@@ -80,6 +80,7 @@ function getCityTemp(response) {
     "Wind speed: " + Math.round(response.data.wind.speed) + " km/h.";
   let humidityElement = document.querySelector("#actual-humidity");
   humidityElement.innerHTML = "Humidity: " + response.data.main.humidity + "%.";
+  displayForecast();
 }
 
 function getCurrentPosition() {
@@ -136,4 +137,60 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemp);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showCelsiusTemp);
 
-// Weather Icon
+// Forecast
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#weather-forecast");
+  let forecastHTML = "";
+  forecastHTML = `<div class="col-2">
+          <div class="card">
+            <h4>Sun</h4>
+            <div class="card-body">
+              <h6 class="card-title">19°</h6>
+              <img class="forecastIcon" src="/img/1.png" />
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <h4>Mon</h4>
+            <div class="card-body">
+              <h6 class="card-title">19°</h6>
+              <img class="forecastIcon" src="/img/1.png" />
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <h4>Tue</h4>
+            <div class="card-body">
+              <h6 class="card-title">19°</h6>
+              <img class="forecastIcon" src="/img/1.png" />
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <h4>Wed</h4>
+            <div class="card-body">
+              <h6 class="card-title">19°</h6>
+              <img class="forecastIcon" src="/img/1.png" />
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card">
+            <h4>Thu</h4>
+            <div class="card-body">
+              <h6 class="card-title">19°</h6>
+              <img class="forecastIcon" src="/img/1.png" />
+              <p class="card-text">14°</p>
+            </div>
+          </div>
+        </div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
