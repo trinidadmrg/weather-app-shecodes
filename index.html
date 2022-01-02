@@ -23,38 +23,63 @@
     <div class="bigContainer">
       <div class="row">
         <div class="col-6">
-          <img src="img/logo.png" class="logo" alt="" />
+          <a href="">
+            <img
+              src="img/logo.png"
+              class="logo"
+              alt="Weather App for SheCodes by Trinidad Margni"
+          /></a>
         </div>
         <div class="col-6">
-          <div class="row">
-            <form class="d-flex searchEngine">
-              <input
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                id="search-input"
-              />
-              <button type="submit" id="button-searcher">Search</button>
-            </form>
-          </div>
-          <div class="row">
-            <button class="actualLocation" id="button-position" type="click">
-              Actual Location
-            </button>
-          </div>
+          <form class="d-flex justify-content-center searchEngine">
+            <input
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="search-input"
+            />
+            <button type="submit" id="button-searcher">Search</button>
+          </form>
+          <button class="actualLocation" id="button-position" type="click">
+            Actual Location
+          </button>
         </div>
       </div>
       <div class="row sections">
-        <div class="col-2">
+        <div class="col-2 d-flex align-items-center">
           <img
             class="vector"
             src="https://cdn.pixabay.com/photo/2014/04/02/10/25/sun-303773__340.png"
+            id="weather-icon"
           />
         </div>
-        <div class="col">
+        <div class="col-6 weatherTemp">
           <h1 id="country">City Name</h1>
           <h2>Current Day</h2>
+          <h5 class="timeAndInfo">
+            <span id="actual-hour">Time.</span>
+            <span class="capitalize" id="weather-info">Info.</span>
+          </h5>
           <h3 id="temperature">Temp</h3>
+          <p class="conversionCF">
+            <a href="#" id="celsius-link" class="active">C</a>|<a
+              href="#"
+              id="fahrenheit-link"
+              >F</a
+            >
+          </p>
+        </div>
+        <div
+          class="
+            col-4
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-end
+          "
+        >
+          <p class="otherTitles" id="actual-humidity">Humidity</p>
+          <p class="otherTitles" id="actual-wind">Wind Speed</p>
         </div>
       </div>
       <div class="row sections">

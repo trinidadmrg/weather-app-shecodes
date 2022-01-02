@@ -28,6 +28,9 @@ body {
 
 .searchEngine {
   margin-top: 20px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .card {
@@ -42,14 +45,40 @@ p {
 
 h1 {
   color: #ffadd9;
+  font-size: 50px;
 }
 
 h2 {
   color: #70acb3;
+  font-size: 40px;
 }
 
 h3 {
   color: #b36890;
+  font-size: 30px;
+  display: inline;
+}
+
+.otherTitles {
+  display: block;
+  font-size: 22px;
+  color: #70acb3;
+}
+
+.timeAndInfo {
+  display: block;
+  color: #ffadd9;
+  font-size: 30px;
+}
+.conversionCF {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 input {
@@ -125,4 +154,16 @@ h6 {
 .redesSociales {
   display: inline-block;
   width: 60px;
+}
+
+.weatherTemp p {
+  font-size: 18px;
+}
+
+.weatherTemp a {
+  text-decoration: none;
+}
+
+.weatherTemp .active {
+  color: #70acb3;
 }
